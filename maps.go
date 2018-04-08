@@ -13,7 +13,7 @@ func maps() {
 	valueOne := dictionary["key1"]
 	fmt.Println("value one:", valueOne)
 
-	fmt.Println("lenght of dictionary", len(dictionary))
+	fmt.Println("length of dictionary", len(dictionary))
 
 	delete(dictionary, "key2")
 	fmt.Println("map:", dictionary)
